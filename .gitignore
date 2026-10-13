@@ -1,0 +1,29 @@
+# Maven build output
+/target/
+**/target/
+
+# IDE and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local Spring Boot configuration
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+**/application-*.local.properties
+**/application-*.local.yml
+**/application-*.local.yaml
+
+# Private keys and local certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
