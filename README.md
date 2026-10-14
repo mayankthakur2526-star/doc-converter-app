@@ -39,7 +39,7 @@ All conversions are processed **purely in-memory** (`ByteArrayOutputStream`), en
 
 | Layer | Technologies |
 | :--- | :--- |
-| **Backend Framework** | Spring Boot 3.3.4 (Java 17 or higher) |
+| **Backend Framework** | Spring Boot 3.5.16 (Java 25 LTS) |
 | **PDF Generation** | Apache PDFBox 3.0.3 |
 | **DOCX & PPTX Generation** | Apache POI & POI-OOXML 5.3.0 |
 | **Templating** | Thymeleaf (Single Page Application container) |
@@ -92,7 +92,7 @@ doc-converter-app/
 ## Getting Started
 
 ### Prerequisites
-- **Java SE Development Kit**: Java 17 or higher (`java -version`)
+- **Java SE Development Kit**: Java 25 LTS (`java -version`)
 - **Apache Maven**: Version 3.8 or higher (`mvn -version`)
 
 ### 1. Clone or Open the Project
